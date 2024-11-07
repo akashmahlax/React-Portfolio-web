@@ -1,14 +1,18 @@
 // Skills.js
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaHeart, FaVuejs, FaBlackTie, FaJava, FaRust, FaPython } from 'react-icons/fa';
 
 const skills = [
   { icon: <FaReact size={40} />, name: 'React' },
   { icon: <FaNodeJs size={40} />, name: 'Node.js' },
-  { icon: <FaHtml5 size={40} />, name: 'HTML5' },
+  { icon: <FaJs size={42} />, name: 'JavaScript' },
   { icon: <FaCss3Alt size={40} />, name: 'CSS3' },
-  { icon: <FaJs size={40} />, name: 'JavaScript' },
+  { icon: <FaJava size={40} />, name: 'JAVA' },
+  { icon: <FaVuejs size={40} />, name: 'Vue js' },
+  { icon: <FaRust size={40} />, name: 'Rust' },
+  { icon: <FaPython size={40} />, name: 'Python' },
+
 ];
 
 const Skills = () => {
