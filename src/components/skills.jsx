@@ -13,7 +13,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="py-16 bg-gradient-to-r from-indigo-500 to-purple-500 text-center text-white">
+    <section className="py-16 bg-gradient-to-r from-gray-300 via-indigo-500 to-purple-300 text-center text-white">
       <h2 className="text-3xl md:text-4xl font-bold mb-8">Skills</h2>
       <div className="flex justify-center space-x-4 md:space-x-8">
         {skills.map((skill, index) => (

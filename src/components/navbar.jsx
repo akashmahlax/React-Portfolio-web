@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 shadow-lg z-50">
+    <nav className="fixed top-0 w-full bg-gradient-to-r from-gray-300 via-indigo-500 to-purple-300 shadow-lg z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo */}
         <div className="text-white font-bold text-2xl">Mahla</div>

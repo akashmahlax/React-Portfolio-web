@@ -27,12 +27,12 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section className="py-16 bg-gray-50 px-6 md:px-12 lg:px-24">
+    <section className="py-16 bg-gradient-to-r from-green-300 via-indigo-500 to-purple-300 px-6 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
           My Work
         </h2>
-        <p className="text-lg text-gray-600 mb-12">
+        <p className="text-lg text-gray-950 mb-12">
           Here are a few of the projects I've worked on recently. Each one
           demonstrates my skills in design, development, and problem-solving.
         </p>

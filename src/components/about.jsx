@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-24">
+    <section className="bg-gradient-to-r from-gray-300 via-indigo-500 to-purple-300 py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
         {/* Image Section */}
         <motion.div

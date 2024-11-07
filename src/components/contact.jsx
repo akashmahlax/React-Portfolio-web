@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-24">
+    <section className="bg-gradient-to-tl from-gray-300 via-indigo-500 to-purple-300 py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-4xl mx-auto text-center">
         <motion.h2
           className="text-3xl md:text-4xl font-bold text-gray-800 mb-8"
