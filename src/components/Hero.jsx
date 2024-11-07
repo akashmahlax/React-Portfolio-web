@@ -1,8 +1,10 @@
 // Hero.js
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate() ;
   return (
     <section className="relative h-screen bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 text-white overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-5"></div>
@@ -15,7 +17,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
         >
-          Welcome to My Portfolio
+          "Your vision, my code."
         </motion.h1>
 
         <motion.p
@@ -24,7 +26,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, delay: 0.2 }}
         >
-          Explore my work, experience, and projects in web development.
+         Full-Stack Web Development, Pixel-Perfect Design, Let's Build Something Amazing.
         </motion.p>
 
         {/* Hero Image */}
@@ -45,14 +47,17 @@ const Hero = () => {
         <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
+          onClick={() => navigate('./portfolio')}
           className="inline-block"
         >
-          <Link
-            to="/portfolio"
+         <Link
+            to="#" 
             className="px-8 py-3 bg-yellow-500 text-black font-semibold rounded-lg shadow-lg hover:bg-yellow-400 transition-colors duration-200"
+          
           >
-            View Portfolio
+            View Work
           </Link>
+          
         </motion.div>
       </div>
     </section>
